@@ -99,3 +99,16 @@ padding-bottom: 70px;
    margin-top: -150px;
    z-index: 1;
 }
+.election{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.election .box{
+    width: 26%;
+    margin: 10px;
+}
+.election .box img{
+ width: 100%;
+}
