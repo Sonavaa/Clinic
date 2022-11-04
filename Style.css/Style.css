@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }.container{
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 a{
     text-decoration: none;
     margin-left: 18px;
 }
 #header{
+    text-align: center;
     position: fixed;
     padding: 20px 0;
     z-index: 1;
@@ -18,7 +19,8 @@ a{
 .head{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    padding-left: 128px;
 }
 .logo{
     width: 15%;
@@ -27,8 +29,9 @@ a{
     width: 100%;
 }
 .nav-right{
-width: 75%;
+width: 83%;
 align-content: center;
+padding-left: 15px;
 }
 .nav-right a{
     color: #ffffff;
@@ -40,13 +43,10 @@ align-content: center;
     font-family: Poppins;
 }
 .booking{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding:20px 40px; 
     background-color: #ba71da;
-    padding-top: 12px !important;
-    padding-bottom: 10px !important;
     border-radius: 30px;
-    margin-left: 30px;
+    margin-left: 769px;
 }
 #main{
     background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_slide1.jpg?id=22308);
@@ -78,7 +78,7 @@ padding-bottom: 70px;
   border-radius: 50px;
 }
 .body img{
-    margin-top: -469px;
+    margin-top: -400px;
     margin-left: 510px;
     padding: 20px 40px;
     width: 42pc;
@@ -100,15 +100,92 @@ padding-bottom: 70px;
    z-index: 1;
 }
 .election{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.box-all{
+   width: 32%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
 .election .box{
-    width: 26%;
+    position: relative;
+    width: 100%;
     margin: 10px;
+    overflow: hidden;
 }
 .election .box img{
  width: 100%;
+ vertical-align: bottom;
+ overflow: hidden;
+}
+.box img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.box-bottom{
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.box-bottom .stars{
+    font-size: 14px;
+    padding-left: 280px;
+    opacity: 0.7;
+   
+}
+.box-top{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 50px;
+    position: absolute;
+    margin: 15px 85%;
+}
+.box-top i{
+    padding-bottom: 26px;
+}
+ .button{
+    color: white;
+    background-color: rgb(0, 107, 166);
+    margin: 57px 43%;
+    padding: 13px 38px;
+    font-size: 16px;
+    border-radius: 30px;
+    border-color: rgb(0, 107, 166);
+}
+.premium{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_banner.jpg?id=22303);
+}
+.premium h1{
+    color: #f7f7f7;
+    font-size: 120px;
+    z-index: -2;
+}
+.premium h2{
+    color: black;
+    font-size: 40px;
+    line-height: 240px;
+    font-family: jost;
+   margin-top: -150px;
+   z-index: 1;
+}
+.premium p{
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+.premium a {
+    color: rgb(0, 107, 166);
+    background-color: rgb(255, 255, 255);
 }
